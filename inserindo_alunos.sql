@@ -1,0 +1,57 @@
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Mauro', 'Horie', '1999-03-26');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Renato', 'Russo', '1960-03-27');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Rita', 'Lee', '1947-12-31');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('John', 'Lennon', '1940-10-09');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Paul', 'McCartney', '1942-06-18');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Angus', 'Young', '1955-03-31');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Samuel', 'Rosa', '1966-07-15');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Marília', 'Mendonça', '1995-07-22');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Mallu', 'Magalhães', '1992-08-29');
+INSERT INTO aluno (primeiro_nome, ultimo_nome, data_nascimento) VALUES ('Wesley', 'Schultz', '1982-12-30');
+
+INSERT INTO categoria (nome) VALUES ('Programacao');
+INSERT INTO categoria (nome) VALUES ('Front-end');
+INSERT INTO categoria (nome) VALUES ('Data Science');
+INSERT INTO categoria (nome) VALUES ('DevOps');
+INSERT INTO categoria (nome) VALUES ('Design');
+INSERT INTO categoria (nome) VALUES ('Mobile');
+INSERT INTO categoria (nome) VALUES ('Inovação');
+
+INSERT INTO curso (nome, categoria_id) VALUES ('PHP', 1);
+INSERT INTO curso (nome, categoria_id) VALUES ('Django', 1);
+INSERT INTO curso (nome, categoria_id) VALUES ('Unity', 1);
+INSERT INTO curso (nome, categoria_id) VALUES ('HTML', 2);
+INSERT INTO curso (nome, categoria_id) VALUES ('React', 2);
+INSERT INTO curso (nome, categoria_id) VALUES ('Angular', 2);
+INSERT INTO curso (nome, categoria_id) VALUES ('SQL', 3);
+INSERT INTO curso (nome, categoria_id) VALUES ('R', 3);
+INSERT INTO curso (nome, categoria_id) VALUES ('Machine Learning', 3);
+INSERT INTO curso (nome, categoria_id) VALUES ('OWASP', 4);
+INSERT INTO curso (nome, categoria_id) VALUES ('Amazon Web Services', 4);
+INSERT INTO curso (nome, categoria_id) VALUES ('Apache', 4);
+INSERT INTO curso (nome, categoria_id) VALUES ('Blender', 5);
+INSERT INTO curso (nome, categoria_id) VALUES ('Fotografia', 5);
+INSERT INTO curso (nome, categoria_id) VALUES ('Photoshop', 5);
+INSERT INTO curso (nome, categoria_id) VALUES ('Flutter', 6);
+INSERT INTO curso (nome, categoria_id) VALUES ('iOS', 6);
+INSERT INTO curso (nome, categoria_id) VALUES ('Android', 6);
+INSERT INTO curso (nome, categoria_id) VALUES ('Business Agility', 7);
+INSERT INTO curso (nome, categoria_id) VALUES ('SEO', 7);
+INSERT INTO curso (nome, categoria_id) VALUES ('Pensamento Estratégico', 7);
+
+
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (1, 7);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (1, 10);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (2, 20);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (3, 2);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (3, 3);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (3, 21);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (5, 11);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (5, 9);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (6, 7);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (7, 7);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (8, 7);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (8, 9);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (8, 10);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (9, 7);
+INSERT INTO aluno_curso (aluno_id, curso_id) VALUES (10, 1);
